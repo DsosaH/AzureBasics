@@ -60,6 +60,6 @@ Following the same steps, We'll create a new VM, with the exception that this ti
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/d9e8871f-ce52-4159-bbda-84865df1678a)
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/e1fc2fe8-429c-4582-9ec7-b3d30fa1bc4c)
   
-  
+  Next step is using Remote Desktop to connect to our Windows OS Virtual Machine. First, we need to get our VM's public IP, for this we simply go to the resource group our VM resides, click on it and search for the public IP.
 </p>
 
