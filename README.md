@@ -44,4 +44,22 @@ In this presentation I'll show how the basics of Microsoft Azure work and can be
   
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/d92d2cc9-db90-419c-98d4-8b59731c54a5)
 
+  We'll also create our NSG at the same time with our VM, for this go to the Networking tab and just make sure that the option indicates that a new NSG is being created, you  can modify the name and Subnet if necesary. Fina;;y just click create and wait until the VM and the NSG are created.
+
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/10433741-d895-4094-b86f-a74cdee94a45)
+
+  After the deployment is done, you can find your VM and NSG inside your resource group ready to use. 
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/baebbb48-70ca-49a8-ad56-b7497b23c5c2)
+
 </p>
+<h2>Testing Internet Protocols (IPs)</h2>
+<p>
+  Now that we know how to deploy VM and NSG, We'll use Remote Desktop to get inside our virtual machine and test some Internet Protocols. For this, We'll need to create another VM so we can connect and see how the protocols work in real time.<br>
+Following the same steps, We'll create a new VM, with the exception that this time we'll set the OS to Linux(Ubuntu) and select the already created SNG instead of creating a new one.
+
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/d9e8871f-ce52-4159-bbda-84865df1678a)
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/e1fc2fe8-429c-4582-9ec7-b3d30fa1bc4c)
+  
+  
+</p>
+
