@@ -28,3 +28,20 @@ In this presentation I'll show how the basics of Microsoft Azure work and can be
   
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/f603e3bd-f2f8-4a1f-b81e-3f97baa25851)
 </p>
+<p>
+  Now that the group is created, we can begin to put it into use. In this case We'll create a Virtual Machine (VM) and a Network Security Group (NSG).<br>
+  To create a VM, just type Virtual Machine in the search bar and create.
+
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/064e3f0f-a852-4101-86bd-749399a291fb)
+
+  Inside the Virtual Machine creation settings first thing we need is to make sure we are using the correct Subscription and Resource Group.<br>
+  Then, choose a name for the VM, a region and the desired OS.
+
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/9e57fc28-d564-4e75-9680-2d4bec12cae4)
+
+  Choose a size based on how powerful and fast do you need you VM to be, but remember that the better the more expensive it'll be.<br>
+  Choose a username a password and note them down somewhere. Also make sure to agree to the license use.
+  
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/d92d2cc9-db90-419c-98d4-8b59731c54a5)
+
+</p>
