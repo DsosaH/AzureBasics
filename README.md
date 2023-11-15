@@ -127,10 +127,28 @@ Following the same steps, We'll create a new VM, with the exception that this ti
 <h1>DHCP</h1>
 <p>
   The DHCP (Dynamic Host Configuration Protocol) is a network protocol that is used to configure network devices to communicate on an IP network. So basically it automates the configuration of our networks (IP adress, Default router, DNS, etc).<br>
-  Filter in Wireshark by DHCP and go to Windows Powershell, there run the command "ipconfig /renew" so that our new ipconfiguration is automated by this protocol.<br>
+  Filter in Wireshark by DHCP and go to Windows Powershell, there run the command "ipconfig /renew" so that our new IP configuration is automated by this protocol.<br>
 
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/6978e54d-60f9-4aab-8e28-77ae9a5b0281)
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/ee6928dd-9b81-4b83-8210-77072354d76d)
 
 </p><br/>
+<h1>DNS</h1>
+<p>
+  The DNS (domain name system) protocol turns domain names into IP addresses, which browsers use to load internet pages, this to make navegation simpler rather than using a bunch of numbers all the time.<br>
+  Filter by DNS inside of Wireshark, then go to Windows Powershell. Using the command "nslookup google.com" We can see the IP adresses used by that domain and the logs inside Wireshark that match those IPs.
 
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/53fd4708-c437-4c6a-88cd-dde117459048)
+
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/2b8dd14a-02e2-4668-878e-be82774a7627)
+
+</p><br/>
+<h1>RDP</h1>
+
+<p>
+  The RDP (Remote Desktop Protocol) is one we have been using a lot since it allows users to execute remote operations on other computers. If we go to wireshark and filter by the port that uses this protocol (tcp.port == 3389) We should see a nonstop stream of log, 
+  since we are using constantly that protocol with our Remote Desktop App. <br>
+
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/8a5930f4-67fd-4071-842b-b76aa2a38752)
+
+</p>
