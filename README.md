@@ -60,6 +60,16 @@ Following the same steps, We'll create a new VM, with the exception that this ti
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/d9e8871f-ce52-4159-bbda-84865df1678a)
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/e1fc2fe8-429c-4582-9ec7-b3d30fa1bc4c)
   
-  Next step is using Remote Desktop to connect to our Windows OS Virtual Machine. First, we need to get our VM's public IP, for this we simply go to the resource group our VM resides, click on it and search for the public IP.
+  Next step is using Remote Desktop to connect to our Windows OS Virtual Machine. First, we need to get our VM's public IP, for this we simply go to the resource group our VM resides, click on it and search for the public IP. Copy the public IP.
+
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/b959607a-05e4-4ebe-ac32-3c7c83a963e1)
+  
+  Open Remote Desktop app, enter the IP and then your previously created credentials. Now you should be able to connect to your Virtual Machine.<br>
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/4ba322d9-77be-4dcb-aed2-86d2fb5e7f48)
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/1d5c3bbf-ef47-42f8-99b7-0e8b66e21c1b)
+</p><br/>
+<p>
+  Now, inside our VM, We'll download and install WireShark, a software the will help Us understand how IPs function.
 </p>
+
 
