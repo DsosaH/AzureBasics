@@ -74,6 +74,7 @@ Following the same steps, We'll create a new VM, with the exception that this ti
   
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/fa97cc6c-5c15-47af-ac2f-6207facbcc51)
 
+  <h1>ICMP</h1>
   The IPs here are not filtered, so they can seem a little erratic, but luckily we can filter them out to watch only the ones that are of our interest. In this case, We'll filter by ICMP (Internet Control Message Protocol), which is the protocol used for reporting 
   errors and performing network diagnostics. Very useful as a starting point when solving a problem.<br>
   First, we write ICMP in the upper bar for the filter to work. Now the screen should be white, for no protocol has been activated yet.<br>
@@ -104,10 +105,16 @@ Following the same steps, We'll create a new VM, with the exception that this ti
   Next, go back to your Azure portal and enter you Network Security Groups through the search bar. Inside, We'll select the Linux VM NSG so we can change it's rules to prohibit inbound ICMP traffic.<br>
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/e868d632-d2c0-4e3b-89c0-4be26ab2b3d3)
   
-  Once the rule is added, after a while, you should see how the perpetual pings you are sending are not connecting anymore.<br>
-  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/283298e1-ceba-4392-8dfd-342e7d858c64)
+  Once the rule is added, after a while, you should see how the perpetual pings you are sending are not connecting anymore. By simply disableing this new added rul, we can easily restablish the connection.<br>
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/283298e1-ceba-4392-8dfd-342e7d858c64)<br/>  
+</p>
+  <h1>SSH</h1>
+<p>
+  The SSH protocol is is a method for secure remote login from one computer to another. Now, We'll use the SSH protocol to connect remotely to our Linux VM.<br>
+  First, we filter by SSH in Wireshark, then open Windows PowerShell and we use the command ssh + usuario de LinuxVM + @ + Ip privada de Linux VM. <br>
 
-  
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/5d307b67-f496-44a8-a6ae-056223c53dc9)
+
 </p>
 
 
