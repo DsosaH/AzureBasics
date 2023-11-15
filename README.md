@@ -115,6 +115,14 @@ Following the same steps, We'll create a new VM, with the exception that this ti
 
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/5d307b67-f496-44a8-a6ae-056223c53dc9)
 
+  Enter your Password and you should be all set. You can exit by simply typing exit.<br>
+
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/e660745e-52c3-4a26-bec0-17c8a17d9951)
+
+  As you can observe in Wireshark, all your protocols have been registred.
+
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/0e4192e5-8cf6-4d72-9657-8fbcdf59fd25)
+
 </p>
 
 
