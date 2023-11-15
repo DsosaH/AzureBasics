@@ -87,9 +87,15 @@ Following the same steps, We'll create a new VM, with the exception that this ti
 
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/0b4d561e-15f5-4156-a02e-8d8034619824)
 
-  inside Wire shark, you can observe that we now have a log of the 4 pockets that were sent and recived.<br>
+  inside Wire shark, you can observe that we now have a log of the 4 packets that were sent and recived. This means that both VM's networks are working as intended when it comes to conecting between themselves.<br>
 
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/9603b1d8-d514-4220-8168-f9c4fa029355)
+
+  Now, let's try pinging a public domain like Google. Same thing happens.<br>
+
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/dbd45325-ca76-4d0f-bb2e-58be52dd2c3d)
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/6c01afbf-dd0d-4336-9faf-4d9d0e2b2e04)
+
 
 </p>
 
