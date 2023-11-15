@@ -69,7 +69,16 @@ Following the same steps, We'll create a new VM, with the exception that this ti
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/1d5c3bbf-ef47-42f8-99b7-0e8b66e21c1b)
 </p><br/>
 <p>
-  Now, inside our VM, We'll download and install WireShark, a software the will help Us understand how IPs function.
+  Now, inside our VM, We'll download and install WireShark, a software that will help Us understand how IPs function.<br>
+  After installing the software, open and select the ethernet connection. In the window that opens will appear all our IPs that are happening at any giving moment.<br>
+  
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/fa97cc6c-5c15-47af-ac2f-6207facbcc51)
+
+  The IPs here are not filtered, so they can seem a little erratic, but luckily we can filter them out to watch only the ones that are of our interest. In this case, We'll filter by ICMP (Internet Control Message Protocol), which is the protocol used for reporting 
+  errors and performing network diagnostics. Very useful as a starting point when solving a problem.<br>
+  First, we write ICMP in the upper bar for the filter to work. Now the screen should be white for no protocol has been activated yet.<br>
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/da259f85-9571-4b52-a07a-5863f8410911)
+
 </p>
 
 
