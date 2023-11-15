@@ -76,8 +76,20 @@ Following the same steps, We'll create a new VM, with the exception that this ti
 
   The IPs here are not filtered, so they can seem a little erratic, but luckily we can filter them out to watch only the ones that are of our interest. In this case, We'll filter by ICMP (Internet Control Message Protocol), which is the protocol used for reporting 
   errors and performing network diagnostics. Very useful as a starting point when solving a problem.<br>
-  First, we write ICMP in the upper bar for the filter to work. Now the screen should be white for no protocol has been activated yet.<br>
+  First, we write ICMP in the upper bar for the filter to work. Now the screen should be white, for no protocol has been activated yet.<br>
+  
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/da259f85-9571-4b52-a07a-5863f8410911)
+
+  Opening the CMD window or Windows PowerShell, We'll ping our Linux OS VM using an ICMP protocol and watch how the software reacts. First, inside your Linux VM in Azure, retrieve it's private IP adress (not the public).<br>
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/194289ee-24a3-4c58-98a7-9e080f90c031)
+
+  Next, use the command ping + the ip adress to start the protocol. You should send and recive the pings with no error.<br>
+
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/0b4d561e-15f5-4156-a02e-8d8034619824)
+
+  inside Wire shark, you can observe that we now have a log of the 4 pockets that were sent and recived.<br>
+
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/9603b1d8-d514-4220-8168-f9c4fa029355)
 
 </p>
 
