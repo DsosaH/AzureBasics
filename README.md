@@ -110,7 +110,7 @@ Following the same steps, We'll create a new VM, with the exception that this ti
 </p>
   <h1>SSH</h1>
 <p>
-  The SSH protocol is is a method for secure remote login from one computer to another. Now, We'll use the SSH protocol to connect remotely to our Linux VM.<br>
+  The SSH (Secure SHell) protocol is is a method for secure remote login from one computer to another. Now, We'll use the SSH protocol to connect remotely to our Linux VM.<br>
   First, we filter by SSH in Wireshark, then open Windows PowerShell and we use the command ssh + usuario de LinuxVM + @ + Ip privada de Linux VM. <br>
 
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/5d307b67-f496-44a8-a6ae-056223c53dc9)
@@ -124,5 +124,13 @@ Following the same steps, We'll create a new VM, with the exception that this ti
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/0e4192e5-8cf6-4d72-9657-8fbcdf59fd25)
 
 </p>
+<h1>DHCP</h1>
+<p>
+  The DHCP (Dynamic Host Configuration Protocol) is a network protocol that is used to configure network devices to communicate on an IP network. So basically it automates the configuration of our networks (IP adress, Default router, DNS, etc).<br>
+  Filter in Wireshark by DHCP and go to Windows Powershell, there run the command "ipconfig /renew" so that our new ipconfiguration is automated by this protocol.<br>
 
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/6978e54d-60f9-4aab-8e28-77ae9a5b0281)
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/ee6928dd-9b81-4b83-8210-77072354d76d)
+
+</p><br/>
 
