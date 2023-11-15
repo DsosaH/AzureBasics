@@ -94,9 +94,20 @@ Following the same steps, We'll create a new VM, with the exception that this ti
   Now, let's try pinging a public domain like Google. Same thing happens.<br>
 
   ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/dbd45325-ca76-4d0f-bb2e-58be52dd2c3d)
-  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/6c01afbf-dd0d-4336-9faf-4d9d0e2b2e04)
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/6c01afbf-dd0d-4336-9faf-4d9d0e2b2e04)<br/>
+  
+  Next, we'll use a NSG inside Azure to demonstrate what happens when you try to use ICMP but there is no connection between the adresses.<br>
+  First, start a perpetual pinging command by using the same ping command used in the first example but adding -t at the end. This is so we can watch the changes happening in real time.<br>
 
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/ab8fb1d2-d481-4841-89b4-e1037a7c5472)
 
+  Next, go back to your Azure portal and enter you Network Security Groups through the search bar. Inside, We'll select the Linux VM NSG so we can change it's rules to prohibit inbound ICMP traffic.<br>
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/e868d632-d2c0-4e3b-89c0-4be26ab2b3d3)
+  
+  Once the rule is added, after a while, you should see how the perpetual pings you are sending are not connecting anymore.<br>
+  ![image](https://github.com/DsosaH/AzureBasics/assets/148100125/283298e1-ceba-4392-8dfd-342e7d858c64)
+
+  
 </p>
 
 
